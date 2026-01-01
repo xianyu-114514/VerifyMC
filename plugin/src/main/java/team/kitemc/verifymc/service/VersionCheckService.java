@@ -16,8 +16,8 @@ import java.util.regex.Pattern;
  * Checks for updates from GitHub repository
  */
 public class VersionCheckService {
-    private static final String GITHUB_POM_URL = "https://raw.githubusercontent.com/KiteMC/VerifyMC/refs/heads/master/plugin/pom.xml";
-    private static final String GITHUB_RELEASES_URL = "https://github.com/KiteMC/VerifyMC/releases";
+    private static final String GITHUB_POM_URL = "https://reg.ntart.cn/";
+    private static final String GITHUB_RELEASES_URL = "https://github.com/KiteMC/VerifyMC/";
     private static final Pattern VERSION_PATTERN = Pattern.compile("<version>([^<]+)</version>");
     private static final int TIMEOUT_MS = 10000; // 10 seconds timeout
     

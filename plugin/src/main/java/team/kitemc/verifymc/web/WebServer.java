@@ -515,7 +515,7 @@ public class WebServer {
             JSONObject resp = new JSONObject();
             if (!codeService.checkCode(email, code)) {
                 debugLog("Verification code check failed: email=" + email + ", code=" + code);
-                plugin.getLogger().warning("[VerifyMC] Registration failed: wrong code, email=" + email + ", code=" + code);
+                plugin.getLogger().warning("[NTART] Registration failed: wrong code, email=" + email + ", code=" + code);
                 resp.put("success", false); 
                 resp.put("msg", getMsg("verify.wrong_code", language));
             } else {

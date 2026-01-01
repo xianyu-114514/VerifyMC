@@ -15,7 +15,7 @@
 import { computed, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
-const langs = { zh: '中文', en: 'EN' }
+const langs = { zh: '中文', en: '中文' }
 const orderedLangs = computed(() => {
   const arr = Object.entries(langs)
   return arr.sort(([a], [b]) => (a === locale.value ? -1 : b === locale.value ? 1 : 0))

@@ -101,7 +101,7 @@ public class VerifyMC extends JavaPlugin implements Listener {
         whitelistMode = config.getString("whitelist_mode", "bukkit");
         whitelistJsonSync = config.getBoolean("whitelist_json_sync", true);
         webRegisterUrl = config.getString("web_register_url", "https://yourdomain.com/");
-        webServerPrefix = config.getString("web_server_prefix", "[VerifyMC]");
+        webServerPrefix = config.getString("web_server_prefix", "[ntart]");
         whitelistJsonPath = Paths.get(getServer().getWorldContainer().getAbsolutePath(), "whitelist.json");
         debug = config.getBoolean("debug", false);
         // Initialize resource manager
@@ -546,7 +546,7 @@ public class VerifyMC extends JavaPlugin implements Listener {
         if (user == null) {
             // Player is not in approved list
             String url = webRegisterUrl;
-            String msg = "§c[ VerifyMC ]\n§7Please visit §a" + url + " §7to register";
+            String msg = "§c[ ntart ]\n§7请用浏览器访问https://reg.ntart.cn/注册白名单 官方Q群1071595115";
             
             // Disallow login directly - no need for delayed scheduling
             // This works on all server types including Folia

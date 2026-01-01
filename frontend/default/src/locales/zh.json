@@ -1,5 +1,5 @@
 {
-  "welcome": "欢迎使用 VerifyMC 白名单系统！",
+  "welcome": "NTARTMC 白名单系统！",
   "main.intro": "基于 Web 的白名单注册与审核，支持邮箱认证。",
   "main.register": "注册白名单",
   "main.admin": "管理员面板",
@@ -34,7 +34,7 @@
     "admin": "管理"
   },
   "home": {
-    "title": "欢迎使用 VerifyMC",
+    "title": "欢迎使用 NTARTMC",
     "desc": "欢迎来到我们的服务器！",
     "registerBtn": "立即注册",
     "welcome": "欢迎加入"

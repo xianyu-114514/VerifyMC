@@ -1,5 +1,5 @@
 {
-  "welcome": "Welcome to VerifyMC Whitelist System!",
+  "welcome": "NTARTMC Whitelist System!",
   "main.intro": "Web-based whitelist registration and review, supports Email authentication.",
   "main.register": "Register",
   "main.admin": "Admin Panel",
@@ -34,7 +34,7 @@
     "admin": "Admin"
   },
   "home": {
-    "title": "Welcome to VerifyMC",
+    "title": "Welcome to NTARTMC",
     "desc": "Welcome to our server!",
     "registerBtn": "Register Now",
     "welcome": "Welcome to"

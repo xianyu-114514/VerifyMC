@@ -20,7 +20,7 @@
               class="hover:text-blue-500 cursor-pointer px-4 py-2 text-base font-semibold rounded-lg hover:bg-blue-50/80 transition-all duration-200"
               active-class="text-blue-700 font-bold bg-blue-50/60">{{ $t('nav.admin') }}</router-link>
             <LanguageSwitcher />
-            <a href="https://github.com/KiteMC/VerifyMC/" target="_blank" rel="noopener"
+            <a href="https://reg.ntart.cn/" target="_blank" rel="noopener"
               class="ml-2 flex items-center justify-center w-10 h-10 rounded-xl hover:bg-gradient-to-r hover:from-gray-100 hover:to-gray-50 transition-all duration-300 hover:scale-105 hover:shadow-md"
               :title="$t('nav.github')">
               <svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-gray-700">
@@ -50,7 +50,7 @@
             <router-link to="/admin" class="hover:text-blue-500 cursor-pointer px-3 py-2 text-base font-semibold"
               active-class="text-blue-700 font-bold">{{ $t('nav.admin') }}</router-link>
             <LanguageSwitcher />
-            <a href="https://github.com/KiteMC/VerifyMC/" target="_blank" rel="noopener"
+            <a href="https://reg.ntart.cn/" target="_blank" rel="noopener"
               class="flex items-center justify-center w-8 h-8 rounded hover:bg-gray-100 transition mt-2" title="GitHub">
               <svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-gray-700">
                 <path

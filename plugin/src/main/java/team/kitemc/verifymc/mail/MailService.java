@@ -89,7 +89,7 @@ public class MailService {
                 content = content.replace("{code}", code);
             } else {
                 debugLog("Using default template");
-                content = "<html><body><h2>Verify Code</h2><p>Your code is: <strong>" + code + "</strong></p></body></html>";
+                content = "<html><body><h2>NTART验证代码</h2><p>代码: <strong>" + code + "</strong></p></body></html>";
             }
             
             debugLog("Creating email message");

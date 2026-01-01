@@ -1,7 +1,7 @@
-name: VerifyMC
-main: team.kitemc.verifymc.VerifyMC
-version: 1.2.4
-author: KiteMC
+name: ntartmcweb
+main: yjh.ntart
+version: 1.0.0
+author: starfox
 folia-supported: true
 commands:
   vmc:
@@ -10,7 +10,7 @@ commands:
     permission: verifymc.use
 permissions:
   verifymc.use:
-    description: Permission to use the VerifyMC plugin
+    description: Permission to use the  NTARTMC plugin
     default: true
   verifymc.admin:
     description: Admin permission
